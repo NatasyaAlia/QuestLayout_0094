@@ -9,3 +9,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.*
 import androidx.compose.ui.text.font.*
 import androidx.compose.ui.unit.*
+
+@Composable
+fun AktivitasPertama(modifier: Modifier) {
+    // Ruang kosong untuk layout utama
+}
