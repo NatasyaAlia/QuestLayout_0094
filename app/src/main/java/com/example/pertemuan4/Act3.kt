@@ -80,6 +80,10 @@ fun AktivitasPertama(modifier: Modifier) {
                         ) {
                             Text(
                                 text = stringResource(R.string.copy),
+                                modifier = Modifier
+                                    .align(Alignment.BottomCenter)
+                                    .padding(bottom = 50.dp)
+                            )
 
                         }
                     }
