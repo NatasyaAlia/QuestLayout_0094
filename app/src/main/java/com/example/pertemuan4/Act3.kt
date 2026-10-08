@@ -12,5 +12,13 @@ import androidx.compose.ui.unit.*
 
 @Composable
 fun AktivitasPertama(modifier: Modifier) {
-    // Ruang kosong untuk layout utama
+    @Composable
+    fun AktivitasPertama(modifier: Modifier) {
+        Column(
+            modifier = Modifier.padding(top = 100.dp).fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
+        }
+    }
 }
