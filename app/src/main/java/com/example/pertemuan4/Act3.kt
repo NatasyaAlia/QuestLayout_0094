@@ -37,6 +37,12 @@ fun AktivitasPertama(modifier: Modifier) {
                 )
             ) {
                 Row() {
+                    val gambar = painterResource(id = R.drawable.logo_meme)
+                    Image(
+                        painter = gambar,
+                        contentDescription = null,
+                        modifier = Modifier.size(100.dp).padding(all = 5.dp)
+                    )
 
                 }
 
